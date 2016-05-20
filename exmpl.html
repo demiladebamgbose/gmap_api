@@ -6,15 +6,22 @@
 			<script src='gmap.js'></script>
 			<style>
 			#page{
-				background-color:#eee;
-				height:100%; 
+				background-color:#eee; 
+			}
+			#top{
+				margin: 10px;
 			}
 			</style>
 		</head>
 
 		<body>
 			<div id='page'>
-			<h1>A MAP OF NIGERIA</h1>
+				<div id = 'top'>
+					<h1>A MAP OF NIGERIA</h1>
+					<input type= 'number' id='latitude' placeholder="LATITUDE" />
+					<input type= 'number' id='longitude'placeholder="LONGITUDE" />
+					<button id=''btn>check</button>
+				</div>
 				<div id="googleMap" style="width:500px;height:380px;">
 					
 				</div>
